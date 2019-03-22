@@ -317,10 +317,114 @@ nav a:hover {
   text-decoration: none;
   background: #000;
   color: white;
+  cursor: pointer;
 }
 
 .workWithUs {
   margin: 50px 0 30px 0px;
+}
+
+/* Contact Section */
+
+.contactSection {
+  padding: 30px 0 50px 0;
+  text-align: center;
+}
+.contactSection h3 {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 50px 0 50px 0;
+}
+
+.contactSection p {
+    margin-bottom: 30px;
+    text-align: left;
+}
+.contactSection form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 880px;
+  height: 450px;
+  padding: 10px 0;
+  border-top: 1px dashed #000;
+}
+.contactSection form .subject,
+.contactSection form .content {
+  width: 80%;
+  margin: 0 auto;
+}
+.contactSection form .subject label,
+.contactSection form .content label {
+  padding: 0;
+  margin: 0;
+}
+.contactSection form .id {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.contactSection form .id .name,
+.contactSection form .id .email {
+  width: 45%;
+}
+.contactSection form .id .name label,
+.contactSection form .id .email label {
+  padding: 0;
+  margin: 0;
+}
+.contactSection form .id .name input[name="email"],
+.contactSection form .id .name input[name="name"],
+.contactSection form .id .email input[name="email"],
+.contactSection form .id .email input[name="name"] {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  height: 40px;
+}
+.contactSection form .subject {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  height: 62px;
+}
+.contactSection form .subject input[name="subject"] {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  height: 40px;
+}
+.contactSection form .content textarea {
+  width: 100%;
+  resize: none;
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin: 20px 0px 20px 0px;
+}
+.contactSection form .content button {
+  margin: 0;
+  background: none;
+  padding: 8px 77px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  transition: all 0.3;
+}
+.contactSection form .content button:hover {
+  background: #000;
+  color: white;
+  border: 1px solid #000;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 /* Footer */
